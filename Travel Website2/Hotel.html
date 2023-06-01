@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="vatican.png">
+
+</head>
+
+<style>
+    * {
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .bg {
+        background-image: url("water-famous-architecture-finance-shanghai-tower.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    span {
+        color: yellowgreen
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: darkslategrey;
+        position: relative;
+    }
+
+    .topnav a {
+        float: left;
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: transparent;
+        color: bisque;
+    }
+
+    .topnav a.active {
+        background-color: transparent;
+        color: bisque;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .text-block {
+        font-family: 'Nunito', sans-serif;
+        text-transform: capitalize;
+        position: absolute;
+        bottom: 300px;
+        right: 200px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    form.example input[type=text] {
+        padding: 10px;
+        top: 10%;
+        margin-left: 10%;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 20%;
+        background: #f1f1f1;
+    }
+
+    form.example button {
+        float: left;
+        width: 10%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: 100px;
+        cursor: pointer;
+    }
+
+    form.example button:hover {
+        background: #0b7dda;
+    }
+
+    form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="Traveller.html" style="margin-right: 50.25%;">Home</a>
+        <a href="Hotel.html">Hotels</a>
+        <a href="Food.html">Food</a>
+        <a href="Trips.html">Trips</a>
+        <a href="Transport.html">Transport</a>
+        <a href="Contact.html">Contact With Us!</a>
+        <a href="Login.html">Login</a>
+    </div>
+
+    <div class="bg">
+
+
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
+    </div>
+    </div>
+
+</body>
+
+</html>

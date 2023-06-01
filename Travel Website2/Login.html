@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="vatican.png">
+
+</head>
+
+<style>
+    * {
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .bg {
+        background-image: url("flat-lay-yellow-luggage-with-copy-space.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    span {
+        color: yellowgreen
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: dimgrey;
+        position: relative;
+    }
+
+    .topnav a {
+        float: left;
+        color: whitesmoke;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: transparent;
+        color: bisque;
+    }
+
+    .topnav a.active {
+        background-color: transparent;
+        color: bisque;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 300px;
+        right: 200px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    .btn {
+        background-color: dimgrey;
+        color: aliceblue;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .btn:hover {
+        opacity: 1;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="Traveller.html" style="margin-right: 55.25%;">Home</a>
+            <a href="Hotel.html">Hotels</a>
+            <a href="Food.html">Food</a>
+            <a href="Trips.html">Trips</a>
+            <a href="Transport.html">Transport</a>
+            <a href="Contact.html">Contact With Us!</a>
+            <a href="Login.html">Login</a>
+        </div>
+    </header>
+
+    <div class="bg">
+        <form action="/action_page.php" class="container"
+            style="position: absolute; left: 0; margin: 20px; margin-top: 150px; margin-left: 40px; max-width: 300px; padding: 16px; background-color: white;">
+            <h1>Login</h1>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+
+    <div class="container" style=" bottom: 200px; right: 450px; font-size:larger">
+        <div class="text-block">
+            <h1><span>T</span>rave<span>ll</span>er</h1>
+        </div>
+    </div>
+
+    <div class="container" style=" bottom: 340px; right: 500px;">
+        <div class="text-block">
+            <p>For <span style="color:crimson">your best </span>experiences in <span
+                    style="color:cadetblue">trips!</span></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
